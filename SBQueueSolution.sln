@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29102.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D385D9-395F-4131-8BBD-514110B8E897}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBSendQueueConApp", "SBSendQueueConApp\SBSendQueueConApp.csproj", "{7FE66F8E-D4F5-4394-A78A-E2518718F689}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBReceiveQueueConApp", "SBReceiveQueueConApp\SBReceiveQueueConApp.csproj", "{4114F7BC-367C-4406-A2C7-182FCA8B3907}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FE66F8E-D4F5-4394-A78A-E2518718F689}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FE66F8E-D4F5-4394-A78A-E2518718F689}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FE66F8E-D4F5-4394-A78A-E2518718F689}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FE66F8E-D4F5-4394-A78A-E2518718F689}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4114F7BC-367C-4406-A2C7-182FCA8B3907}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4114F7BC-367C-4406-A2C7-182FCA8B3907}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4114F7BC-367C-4406-A2C7-182FCA8B3907}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4114F7BC-367C-4406-A2C7-182FCA8B3907}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {045115F7-A848-409A-AEDD-94359A494DC9}
+	EndGlobalSection
+EndGlobal
